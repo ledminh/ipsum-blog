@@ -1,19 +1,12 @@
 import styles from './Header.module.scss';
 
+import NavBar from './NavBar';
+
 export default function Header() {
 
     return (
         <div className={styles.Header}>
-            <nav>
-                <div>Logo</div>
-                <ul>
-                    <li>Sales</li>
-                    <li>Top management</li>
-                    <li>Sales Ops</li>
-                    <li>Finance</li>
-                </ul>
-                <button>Subscribe</button>
-            </nav>
+            <NavBar />
             <div>
                 <div>
                     <h6>Our blog</h6>
