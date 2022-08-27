@@ -1,6 +1,10 @@
+import styles from './Intro.module.scss';
+
 export default function Intro() {
 
     return (
-        <>Intro</>
+        <div className={styles.Intro}>
+            
+        </div>
     )
 }
